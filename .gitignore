@@ -1,0 +1,20 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+*.db
+
+# Uploads (user PDFs)
+backend/uploads/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Env
+.env
+*.env
+
+# Test files
+generate_requirements_pdf.py
+*.pdf

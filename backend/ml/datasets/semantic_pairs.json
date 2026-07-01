@@ -1,0 +1,122 @@
+[
+  {
+    "requirement": "user authentication login",
+    "function": "def authenticate_user(username, password)"
+  },
+  {
+    "requirement": "user registration signup",
+    "function": "def register_user(email, password, name)"
+  },
+  {
+    "requirement": "password reset forgotten",
+    "function": "def reset_password(email, token)"
+  },
+  {
+    "requirement": "product listing display",
+    "function": "def get_products(category, page)"
+  },
+  {
+    "requirement": "add item shopping cart",
+    "function": "def add_to_cart(user_id, product_id, quantity)"
+  },
+  {
+    "requirement": "remove item from cart",
+    "function": "def remove_from_cart(user_id, product_id)"
+  },
+  {
+    "requirement": "checkout payment process",
+    "function": "def process_checkout(cart_id, payment_info)"
+  },
+  {
+    "requirement": "order history tracking",
+    "function": "def get_order_history(user_id)"
+  },
+  {
+    "requirement": "search filter products",
+    "function": "def search_products(query, filters)"
+  },
+  {
+    "requirement": "product detail view",
+    "function": "def get_product_detail(product_id)"
+  },
+  {
+    "requirement": "user profile update",
+    "function": "def update_profile(user_id, data)"
+  },
+  {
+    "requirement": "admin dashboard manage",
+    "function": "def admin_get_dashboard_stats()"
+  },
+  {
+    "requirement": "send email notification",
+    "function": "def send_email(to, subject, body)"
+  },
+  {
+    "requirement": "generate invoice receipt",
+    "function": "def generate_invoice(order_id)"
+  },
+  {
+    "requirement": "upload product image",
+    "function": "def upload_image(file, product_id)"
+  },
+  {
+    "requirement": "calculate total price",
+    "function": "def calculate_cart_total(cart_id)"
+  },
+  {
+    "requirement": "apply discount coupon",
+    "function": "def apply_coupon(cart_id, coupon_code)"
+  },
+  {
+    "requirement": "track shipment delivery",
+    "function": "def track_shipment(order_id)"
+  },
+  {
+    "requirement": "write product review",
+    "function": "def create_review(user_id, product_id, rating, text)"
+  },
+  {
+    "requirement": "delete account user",
+    "function": "def delete_user_account(user_id)"
+  },
+  {
+    "requirement": "export data csv",
+    "function": "def export_to_csv(data, filename)"
+  },
+  {
+    "requirement": "import bulk products",
+    "function": "def bulk_import_products(file_path)"
+  },
+  {
+    "requirement": "generate report analytics",
+    "function": "def generate_analytics_report(start_date, end_date)"
+  },
+  {
+    "requirement": "send sms notification",
+    "function": "def send_sms(phone, message)"
+  },
+  {
+    "requirement": "validate input form",
+    "function": "def validate_form_data(data, schema)"
+  },
+  {
+    "requirement": "encrypt sensitive data",
+    "function": "def encrypt_data(plaintext, key)"
+  },
+  {
+    "requirement": "decode token jwt",
+    "function": "def decode_jwt_token(token, secret)"
+  },
+  {
+    "requirement": "refresh session token",
+    "function": "def refresh_auth_token(refresh_token)"
+  },
+  {
+    "requirement": "get user permissions",
+    "function": "def get_user_roles(user_id)"
+  },
+  {
+    "requirement": "log activity audit",
+    "function": "def log_audit_event(user_id, action, resource)"
+  }
+]

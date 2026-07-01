@@ -1,0 +1,42 @@
+RequirementText,Class,ProjectID
+The system shall allow users to register with email and password.,F,P01
+The system shall allow users to log in using their credentials.,F,P01
+The system shall display a list of all products.,F,P01
+The system shall allow users to add items to a shopping cart.,F,P01
+The system shall send a confirmation email after registration.,F,P01
+The system shall allow admin to add new products.,F,P01
+The system shall allow users to filter products by category.,F,P01
+The system shall process payments via Stripe.,F,P01
+The system shall allow users to track their order status.,F,P01
+The system shall allow users to write product reviews.,F,P01
+The system shall allow users to reset their password via email.,F,P02
+The system shall display product images and descriptions.,F,P02
+The system shall allow users to search for products by name.,F,P02
+The system shall generate invoices for completed orders.,F,P02
+The system shall allow users to update their profile information.,F,P02
+All passwords shall be stored using bcrypt hashing.,SE,P02
+The system shall use HTTPS for all communications.,SE,P02
+User sessions shall expire after 30 minutes of inactivity.,SE,P02
+The system shall implement rate limiting on login attempts.,SE,P02
+All API endpoints shall require authentication tokens.,SE,P02
+The system shall load the home page within 2 seconds.,PE,P03
+The system shall handle 1000 concurrent users.,PE,P03
+Search results shall be returned within 500ms.,PE,P03
+The system shall cache frequently accessed product data.,PE,P03
+Database queries shall complete within 100ms.,PE,P03
+The interface shall be responsive on mobile devices.,US,P03
+Error messages shall be clear and actionable.,US,P03
+The system shall support keyboard navigation.,US,P03
+The checkout process shall complete in 3 steps or fewer.,US,P03
+The system shall provide a dark mode option.,US,P03
+The system shall maintain 99.9% uptime.,A,P04
+The system shall support automatic failover.,A,P04
+Planned downtime shall not exceed 1 hour per month.,A,P04
+The system shall provide health check endpoints.,A,P04
+The codebase shall have at least 80% test coverage.,MT,P04
+All API endpoints shall be documented with OpenAPI.,MT,P04
+The system shall use structured logging.,MT,P04
+Code shall follow PEP8 style guidelines.,MT,P04
+The system shall support horizontal scaling.,SC,P04
+The database shall support sharding.,SC,P04
+The system shall use a message queue for async tasks.,SC,P05
